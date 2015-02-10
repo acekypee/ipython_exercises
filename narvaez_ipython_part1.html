@@ -29,12 +29,45 @@ There is no significant difference. only less steps.
 13.
 geany, notepad++ sublime text
 14.
+ctrl-p or up-arrow - Search backward in command history for commands starting with currently-entered text
+ctrl-n or down-arrow - Search forward in command history for commands starting with currently-entered text
+ctrl-r - Readline-style reverse history search
+ctrl-shift-v - Paste text from clipboard
+ctrl-c - interrupt currently-executing code
+ctrl-a - move cursor to beginning of line
+ctrl-e - move cursor to end of line
+ctrl-k - delete text from cursor until end of line
+ctrl-u - discard all text on current line
+ctrl-f - move cursor forward one character
+ctrl-b - move cursor backward one character
+ctrl-l - clear screen
 15.
+when an exception is raised, ipython, by default, will print a full stack trace with a few lines of context around the position of each point
+in the stack.
 16.
+%xmode magic command
 17.
+%timeit - measure execution time of a program
+%reset - reset the namespace by removing all names defined by the user.
+%quickref - displays the ipython quick reference card
+%magic - displays available magic commands
+%debug - enters the debugger
+%hist - print command input (and output) history
+%pdb - automatically enters debugger every after execption
+%paste - execute pre-formatted python code from clipboard
+%cpaste - opens a special promt for manually paste a python code to be executes
+%page OBJECT - pretty print an object and display it through a pager
+%run - runs a python script inside ipython
+%prun - execute a statement with cProfile and report the profiler output
+%time - get average execution time
+%who, %who_Is, %whos - displays variale defined in namespace
+%xdel - deletes a variable and clears any references.
 18.
+1000 loops, best of three: 789 us per loop
 19.
+displays information about the reset magic function
 20.
+the feature that allows magic functions to be used without the % sign. can be enabled or disabled using %automagic.
 
 
 
